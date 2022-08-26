@@ -49,9 +49,10 @@ describe("Round", function () {
       ["Lex", "William", "Fitzgerald"],
       "Fitzgerald"
     );
+    const turn = new Turn("pig", card1);
     const deck = new Deck([card1, card2, card3]);
     const round = new Round(deck);
-    const turn = new Turn();
+
     expect(turn).to.be.an.instanceof(Turn);
   });
   it("should count how many turns have been played", function () {
