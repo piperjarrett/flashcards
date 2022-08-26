@@ -1,3 +1,6 @@
+var Round = require("./Round");
+var Card = require("./Card");
+
 class Turn {
   constructor(guess, card) {
     this.guess = guess;

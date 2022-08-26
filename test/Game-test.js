@@ -88,32 +88,4 @@ describe("Round", function () {
     // const round = new Round(deck);
     expect(game.round).to.be.an.instanceof(Round);
   });
-  //   it("should should invoke the printMessage method", function () {
-  //     game.start(
-  //       4,
-  //       "What is the capital of New Mexico?",
-  //       ["Albuquerque", "Santa Fe", "Las Cruces"],
-  //       "Santa Fe"
-  //     );
-  //     game.start(
-  //       5,
-  //       "What is Piper's favorite color?",
-  //       ["Pink", "Blue", "Yellow"],
-  //       "Blue"
-  //     );
-  //     game.start(
-  //       6,
-  //       "What is Bryce's favorite food?",
-  //       ["Pizza", "Noodles", "Hot Cheetos"],
-  //       "Hot Cheetos"
-  //     );
-  //     const deck = new Deck([card1, card2, card3]);
-  //     const round = new Round(deck);
-  //     expect(printMessage(deck, round)).to
-  //       .equal(`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
-  // -----------------------------------------------------------------------`);
-  // });
-  // it("should should invoke the printQuestion method", function () {
-  //
-  // });
 });
