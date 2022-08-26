@@ -75,7 +75,7 @@ describe("Turn", function () {
     );
     const turn = new Turn("cat", card);
 
-    expect(turn.giveFeedback()).to.equal("Correct Answer!");
+    expect(turn.giveFeedback("cat")).to.equal("Correct Answer!");
   });
   it("Give feedback whether the guess was incorrect", function () {
     const card = new Card(
