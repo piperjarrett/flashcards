@@ -74,7 +74,6 @@ describe("Round", function () {
       ["Lex", "William", "Fitzgerald"],
       "Fitzgerald"
     );
-    const turn = new Turn("pig", card1);
     const deck = new Deck([card1, card2, card3]);
     const round = new Round(deck);
     round.takeTurn("horse");
