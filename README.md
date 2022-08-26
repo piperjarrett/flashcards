@@ -4,7 +4,18 @@
 
 Piper Jarrett
 
+## Abstract
+In flashcards you will be able to answer a series of wuestions soley in the console. By running `node index.js` a question will show and give you three options of answers. Once you choose your answer it will display if it is correct or not. After all cards are answered the console will show the percent of correct questions you answered. 
 
+## Working Application
+
+## Technologies
+
+* Javascript
+* Git work Flow
+* Chai 
+* Mocha
+* 
 ## Setup
 
 
