@@ -9,7 +9,8 @@ In flashcards you will be able to answer a series of wuestions soley in the cons
 
 ## Working Application
 
-* [Working Application](http://giphy.com/flashcards/)
+![flash cards example gif](https://media.giphy.com/media/hi7o0E7OoMtLZyp560/giphy.gif)
+
 ## Technologies
 
 * Javascript
