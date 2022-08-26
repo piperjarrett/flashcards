@@ -2,7 +2,6 @@ const chai = require("chai");
 const expect = chai.expect;
 const Card = require("../src/Card");
 const Deck = require("../src/Deck");
-
 describe("Deck", function () {
   it("should instantuate a new Deck class", function () {
     const deck = new Deck();

@@ -6,35 +6,24 @@ class Round {
     this.turns = 0;
     this.incorrectGuesses = [];
   }
-
-  takeTurn(guess, card) {
-    const turn = new Turn(guess, card);
-    this.turns++;
+  takeTurn(guess) {
+    const turn = new Turn(guess, this.round.deck[this.turns]);
     if (guess !== turn.card.correctAnswer) {
       this.incorrectGuesses.push(turn.card.id);
     }
+    this.turns++;
     return turn.giveFeedback();
-
-    // return turn;
   }
   returnCurrentCard() {
-    let currentCard = this.round.deck[0];
-    if (this.turns === 1) {
-      currentCard = this.round.deck[1];
-    }
-    if (this.turns === 2) {
-      currentCard = this.round.deck[2];
-    }
-    return currentCard;
+    return this.round.deck[this.turns];
   }
   calculatePercentCorrect() {
-    let correctGuesses = this.turns - this.incorrectGuesses;
+    const correctGuesses = this.turns - this.incorrectGuesses.length;
     let percent = (correctGuesses / this.turns) * 100;
-    percent = Math.round(percent);
-    this.endRound(percent);
-    return percent;
+    return Math.round(percent);
   }
-  endRound(percent) {
+  endRound() {
+    const percent = this.calculatePercentCorrect();
     console.log(
       "** Round over! ** You answered " +
         percent +
@@ -47,5 +36,4 @@ class Round {
     );
   }
 }
-
 module.exports = Round;
