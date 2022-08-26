@@ -20,7 +20,7 @@ In flashcards you will be able to answer a series of wuestions soley in the cons
 
 ## Setup
 
-For the repo from [here](https://github.com/turingschool-examples/flashcards-starter). Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+Fork the repo from [here](https://github.com/turingschool-examples/flashcards-starter). Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
 
 ```bash
 git clone [remote-address] [what you want to name the repo]
