@@ -17,7 +17,7 @@ In flashcards you will be able to answer a series of wuestions soley in the cons
 * Git work Flow
 * Chai 
 * Mocha
-* 
+
 ## Setup
 
 For the repo from [here](https://github.com/turingschool-examples/flashcards-starter). Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
